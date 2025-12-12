@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy - Dumb</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/banana_favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <a class="nav-home" href="/">Home</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/apps.html">Apps</a></li>
+                    <li class="nav-item github-item">
+                        <a class="github-link" href="https://github.com/aidan-liu/Dumb" target="_blank">Github</a>
+                        <div class="nav-popup" role="dialog" aria-label="Confirm navigation to Github">
+                            <div class="nav-popup-inner">
+                                <p class="nav-popup-text">Go to Github?</p>
+                                <div class="nav-popup-actions">
+                                    <button type="button" class="nav-popup-btn confirm-btn" aria-label="Confirm Github">✓</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="nav-actions">
+                    <a class="pill-btn pill-secondary" href="developer.html">Meet the Developer</a>
+                    <button class="pill-btn pill-primary download-btn" type="button">Download</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section" style="padding-top: 8rem;">
+        <div class="container" style="max-width: 1200px;">
+            <div class="privacy-layout">
+                <aside class="privacy-sidebar" aria-label="Privacy navigation">
+                    <div class="privacy-toc-card">
+                        <p class="toc-title">On this page</p>
+                        <nav class="privacy-toc" aria-label="Privacy policy table of contents">
+                            <ol>
+                                <li><a href="#intro">Overview</a></li>
+                                <li><a href="#data-we-collect">What We Collect</a></li>
+                                <li><a href="#how-we-use">How We Use Data</a></li>
+                                <li><a href="#what-we-dont-collect">What We Don't Collect</a></li>
+                                <li><a href="#storage-security">Storage & Security</a></li>
+                                <li><a href="#third-parties">Third-Party Services</a></li>
+                                <li><a href="#your-controls">Your Controls</a></li>
+                                <li><a href="#cookies">Cookies</a></li>
+                                <li><a href="#access-export">Access & Export</a></li>
+                                <li><a href="#deletion">Deletion</a></li>
+                                <li><a href="#changes">Changes to This Policy</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </aside>
+
+                <div class="privacy-content">
+                    <header class="privacy-hero">
+                        <p class="eyebrow">Get clear on privacy</p>
+                        <h1>Privacy Policy</h1>
+                        <p class="privacy-lede">Plain-language commitments on what we collect, why we collect it, and how you stay in control. No fine print surprises.</p>
+                    </header>
+
+                    <section id="intro" class="privacy-section">
+                        <h2>Overview</h2>
+                        <p>Dumb was built to bypass noise and paywalls, not to harvest your data. This policy explains what we collect, why we collect it, and how you stay in control. Plain language, no hidden clauses.</p>
+                    </section>
+
+                    <section id="data-we-collect" class="privacy-section">
+                        <h2>What We Collect</h2>
+                        <ul class="privacy-list">
+                            <li><strong>Account basics (optional):</strong> Email if you sign up for updates or betas.</li>
+                            <li><strong>App diagnostics:</strong> Crash reports, performance metrics, and anonymized device details to keep things stable.</li>
+                            <li><strong>Minimal usage signals:</strong> Aggregated counts (e.g., feature toggles, load times) that cannot identify you.</li>
+                        </ul>
+                    </section>
+
+                    <section id="how-we-use" class="privacy-section">
+                        <h2>How We Use Data</h2>
+                        <ul class="privacy-list">
+                            <li>Fix bugs, improve stability, and prioritize features people actually use.</li>
+                            <li>Send product updates you explicitly requested (and only those).</li>
+                            <li>Detect abuse and protect the service from spam or automated attacks.</li>
+                        </ul>
+                    </section>
+
+                    <section id="what-we-dont-collect" class="privacy-section">
+                        <h2>What We Don't Collect</h2>
+                        <ul class="privacy-list">
+                            <li>No advertising identifiers or third-party ad pixels.</li>
+                            <li>No behavioral tracking across apps or sites.</li>
+                            <li>No unnecessary personal identifiers—if we do not need it to deliver the app, we do not ask for it.</li>
+                        </ul>
+                    </section>
+
+                    <section id="storage-security" class="privacy-section">
+                        <h2>Storage & Security</h2>
+                        <ul class="privacy-list">
+                            <li>Data is encrypted in transit (TLS) and at rest where storage is required.</li>
+                            <li>Access to systems is limited to the smallest set of people and services necessary.</li>
+                            <li>We retain data only as long as it is needed to operate the product or comply with legal requirements.</li>
+                        </ul>
+                    </section>
+
+                    <section id="third-parties" class="privacy-section">
+                        <h2>Third-Party Services</h2>
+                        <p>We minimize external dependencies. When third parties are used (e.g., email delivery, crash analytics), they are contractually bound to handle data securely and only for the purposes we specify.</p>
+                    </section>
+
+                    <section id="your-controls" class="privacy-section">
+                        <h2>Your Controls</h2>
+                        <ul class="privacy-list">
+                            <li><strong>Opt-out:</strong> Unsubscribe from emails at any time via the link provided.</li>
+                            <li><strong>Limit signals:</strong> Disable analytics or diagnostics in settings where available.</li>
+                            <li><strong>Delete data:</strong> Request removal of your account data and associated logs (see Deletion).</li>
+                        </ul>
+                    </section>
+
+                    <section id="cookies" class="privacy-section">
+                        <h2>Cookies</h2>
+                        <p>We avoid cookies unless required for core functionality (e.g., session continuity). If cookies are used, they are first-party and purpose-bound—no ad tracking, no retargeting.</p>
+                    </section>
+
+                    <section id="access-export" class="privacy-section">
+                        <h2>Access & Export</h2>
+                        <p>You can request a copy of the data you have provided and any data we maintain about your use. We will deliver it in a portable format within a reasonable timeframe.</p>
+                    </section>
+
+                    <section id="deletion" class="privacy-section">
+                        <h2>Deletion</h2>
+                        <p>Submit a deletion request, and we will remove your personal data from active systems and schedule secure removal from backups. Some retention may remain where lawfully required (e.g., fraud prevention logs).</p>
+                    </section>
+
+                    <section id="changes" class="privacy-section">
+                        <h2>Changes to This Policy</h2>
+                        <p>If we change what we collect or how we use it, we will update this page and, when appropriate, notify you in-app or via email.</p>
+                    </section>
+
+                    <section id="contact" class="privacy-section">
+                        <h2>Contact</h2>
+                        <p>Questions or requests? Reach out at <a href="mailto:aidanliu2023@gmail.com">aidanliu2023@gmail.com</a>. We aim to respond quickly, because privacy questions deserve straight answers.</p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

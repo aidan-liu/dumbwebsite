@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apps - Dumb</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/banana_favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <a class="nav-home" href="/">Home</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/apps.html" class="active">Apps</a></li>
+                    <li class="nav-item github-item">
+                        <a class="github-link" href="https://github.com/aidan-liu/Dumb" target="_blank">Github</a>
+                        <div class="nav-popup" role="dialog" aria-label="Confirm navigation to Github">
+                            <div class="nav-popup-inner">
+                                <p class="nav-popup-text">Go to Github?</p>
+                                <div class="nav-popup-actions">
+                                    <button type="button" class="nav-popup-btn confirm-btn" aria-label="Confirm Github">✓</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="nav-actions">
+                    <a class="pill-btn pill-secondary" href="developer.html">Meet the Developer</a>
+                    <button class="pill-btn pill-primary download-btn" type="button">Download</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section" style="padding-top: 8rem;">
+        <div class="container">
+            <h1>Apps</h1>
+            <p>Browse the dumbed-down, paywall-free apps we're shipping.</p>
+            <div class="grid" style="margin-top: 2rem;">
+                <div class="tile">
+                    <h3>Dumb Focus</h3>
+                    <p>Lightweight focus timer without subscriptions.</p>
+                </div>
+                <div class="tile">
+                    <h3>Dumb Notes</h3>
+                    <p>Clean notes with offline-first sync and zero lock-in.</p>
+                </div>
+                <div class="tile">
+                    <h3>Dumb Reader</h3>
+                    <p>Ad-free reading mode with smart summaries.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

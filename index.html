@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dumb - Uncensored & Simplified News</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/banana_favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <a class="nav-home" href="/">Home</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/apps.html">Apps</a></li>
+                    <li class="nav-item github-item">
+                        <a class="github-link" href="https://github.com/aidan-liu/Dumb" target="_blank">Github</a>
+                        <div class="nav-popup" role="dialog" aria-label="Confirm navigation to Github">
+                            <div class="nav-popup-inner">
+                                <p class="nav-popup-text">Go to Github?</p>
+                                <div class="nav-popup-actions">
+                                    <button type="button" class="nav-popup-btn confirm-btn" aria-label="Confirm Github">✓</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="nav-actions">
+                    <a class="pill-btn pill-secondary" href="developer.html">Meet the Developer</a>
+                    <button class="pill-btn pill-primary download-btn" type="button">Download</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-image animate-fade-in">
+                <img src="assets/dumb.png" alt="Dumb mascot with glasses" class="hero-dumb">
+            </div>
+            <div class="hero-text animate-slide-up">
+                <h1>this is dumb.</h1>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Dumb</title>
+    <link rel="icon" type="image/png" sizes="512x512" href="assets/banana_favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <div class="nav-logo">
+                    <a class="nav-home" href="/">Home</a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="/apps.html">Apps</a></li>
+                    <li class="nav-item github-item">
+                        <a class="github-link" href="https://github.com/aidan-liu/Dumb" target="_blank">Github</a>
+                        <div class="nav-popup" role="dialog" aria-label="Confirm navigation to Github">
+                            <div class="nav-popup-inner">
+                                <p class="nav-popup-text">Go to Github?</p>
+                                <div class="nav-popup-actions">
+                                    <button type="button" class="nav-popup-btn confirm-btn" aria-label="Confirm Github">✓</button>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <div class="nav-actions">
+                    <a class="pill-btn pill-secondary" href="developer.html">Meet the Developer</a>
+                    <button class="pill-btn pill-primary download-btn" type="button">Download</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Content Section -->
+    <section class="info-section" style="margin-top: 6vh;">
+        <div class="container" style="display: flex; flex-direction: column; gap: 2rem; max-width: 900px;">
+            <div class="info-content animate-on-scroll about-summary" style="text-align: left;">
+                <h2>Why Dumb Exists</h2>
+                <p>Dumb was created to bypass the paywall—the growing wall between people and the news they need. We believe access should be earned by curiosity, not gated by subscriptions.</p>
+                <p>Behind the simple UI is a stubborn mission: unstick journalism from ad pixels and corporate choke points, surface the story without the squeeze, and make sure a reader in a dorm room has the same shot at the truth as someone with ten subscriptions.</p>
+                <p>We build with restraint and a bias for clarity. No dark patterns, no engagement traps, just a clean path from headline to understanding. Dumb is the small rebellion that keeps the web honest—one app, one article, one bypass at a time.</p>
+                <p>Every release is a conversation with our users: what’s blocked, what’s broken, what’s worth knowing right now. That feedback loop shapes our roadmap more than investor decks ever could.</p>
+                <p>We’re not trying to replace journalism. We’re trying to give it room to breathe—free from the friction that keeps readers out and keeps hard reporting unseen. If a story matters, it shouldn’t be hidden. Dumb is how we keep it in the light.</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
